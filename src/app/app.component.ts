@@ -16,8 +16,8 @@ import { InterpolationConfig } from '@angular/compiler';
     <button (click)="onClick($event)"> Click me!</button>
     <p *ngIf="danger"> {{greeting}} </p>
 
-    <button (click)="greeting1='Welcome Sindhu'"> welcome</button>
-    {{greeting1}} <br/>
+    <button (click)="greeting='Welcome Sindhu'"> welcome</button>
+    {{greeting}} <br/>
     <br/>
     <input type="text" #msgvalue/>
     <button (click)="logmessage(msgvalue.value)"> Log me!</button>
